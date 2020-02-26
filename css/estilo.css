@@ -1,0 +1,119 @@
+body{
+	background-color: black;
+	background: url(../img/fondo.jpg) no-repeat fixed center center;
+	background-size: cover;
+}
+
+*{
+	padding: 0;
+	margin: 0;
+	color: #eee;
+	
+}
+
+.main-container{
+	border:2px solid rgb(244, 146, 64 );
+	border-radius: 30px;
+	margin: 1rem;
+	background-color: rgba(0, 0, 0, .6);
+	
+
+	
+
+} 
+nav,section,footer,article,aside, header {
+	
+	margin: 0px;
+	border-radius: 10px;
+	padding: 1rem;
+	text-align: center;
+}
+aside{
+	
+	margin: 1rem;
+	height: 500px;
+	width:25%; 
+	background-color: rgba(232, 130, 29, .3);
+
+}
+article{
+
+	width: 60%;
+	height: 500px;
+	background-color: rgba(232, 130, 29, .3);
+
+
+
+}
+article, aside{
+	display: inline-block;
+}
+
+footer{
+	text-align: center;
+	background-color: rgba(232, 130, 29, .3);
+	height: 60px;
+	
+}
+#menu{
+	background-color: rgba(232, 130, 29, .3);
+
+}
+#menu ul li{
+	display: inline-block;
+}
+}
+#menu ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+#menu  ul li a{
+	text-decoration: none;
+	display: block;	
+	padding: 3px 70px;
+}
+#menu  a:hover{
+	background-color: rgba( 243, 213, 64, .3);
+	height: 30px;
+}
+
+#xd  a{
+	text-decoration: none;
+	line-height: 1.5rem;
+}
+
+#n a{
+	text-decoration: none;
+	line-height: 1rem;
+
+
+}
+nav{
+	height: 40px;
+	margin:0;
+
+
+}
+header{
+	
+	background: url(../img/logo.png) no-repeat center;
+	height: 150px;
+
+}
+
+#h{
+	margin-top: 2rem;
+	margin-left: 6.6rem; 
+	width:80%;
+	line-height: 1.5rem;
+	height: 700px;
+}
+#j{
+	margin-top: 2rem;
+	margin-left: 6.6rem; 
+	width:80%;
+	line-height: 1.5rem;
+	height: 1250px;
+}
+
